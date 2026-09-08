@@ -1,0 +1,94 @@
+<!DOCTYPE html> <!-- Informa ao navegador que este documento usa o padrão HTML5 -->
+<html lang="pt-BR"> <!-- Tag raiz que envolve todo o código do site; 'lang' define o idioma como Português do Brasil -->
+
+<head> <!-- Contém as configurações de bastidores e metadados da página (não visíveis na tela) -->
+    <meta charset="UTF-8"> <!-- Garante a exibição correta de caracteres especiais e acentos (como ç, á, ã) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajusta a largura e o zoom para caber em telas de celulares -->
+    <title>EletroServ - Serviços Elétricos Residenciais</title> <!-- Título que aparece na aba do navegador -->
+</head>
+
+<body> <!-- Contém todo o conteúdo visível que o usuário enxerga e interage no site -->
+
+    <!-- CABEÇALHO: Utilizado para a marca/nome do site e menus principais de navegação -->
+    <header>
+        <h1>EletroServ - Soluções Elétricas Residenciais</h1> <!-- h1: Título principal do site (deve existir apenas um por página) -->
+        
+        <nav> <!-- nav: Agrupa links de navegação principal -->
+            <ul> <!-- ul: Cria uma lista não ordenada (com tópicos/pontos) -->
+                <li><a href="#inicio">Início</a></li> <!-- li: Item da lista | a: Link ancorado para a seção #inicio -->
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL: Envolve o assunto central e mais importante da página -->
+    <main>
+
+        <!-- SEÇÃO HERO: Primeira dobra do site; foco em atrair a atenção do visitante -->
+        <section id="inicio"> <!-- section: Agrupa conteúdos relacionados ao mesmo assunto -->
+            <h2>Segurança e Qualidade para a Instalação Elétrica da sua Casa</h2> <!-- h2: Subtítulo principal de seção -->
+            <p>Serviços técnicos especializados com diagnóstico preciso, atendimento rápido e total conformidade com as normas de segurança NBR 5410.</p> <!-- p: Parágrafo de texto -->
+            <a href="#contato">Solicitar Orçamento Gratuito</a> <!-- Botão/Link que direciona para o contato (Call to Action - CTA) -->
+        </section>
+
+        <!-- SEÇÃO SOBRE: Informações institucionais e proposta de valor do serviço -->
+        <section id="sobre">
+            <h2>Sobre o Serviço</h2>
+            <p>Atendimento voltado para a prevenção de acidentes elétricos, eliminação de riscos de curto-circuito e garantia de instalações eficientes e seguras para residências e pequenos comércios.</p>
+        </section>
+
+        <!-- SEÇÃO SERVIÇOS: Apresenta os blocos/cards dos serviços prestados -->
+        <section id="servicos">
+            <h2>Nossos Serviços</h2>
+            
+            <article> <!-- article: Bloco autônomo e independente de conteúdo (ideal para posts, produtos ou cards de serviços) -->
+                <h3>Instalação e Troca de Tomadas e Interruptores</h3> <!-- h3: Subtítulo para itens dentro de uma seção -->
+                <p>Substituição de peças antigas ou danificadas, adequação ao novo padrão brasileiro e instalação de novos pontos de energia em locais estratégicos.</p>
+            </article>
+
+            <article>
+                <h3>Montagem e Revisão de Quadros de Distribuição</h3>
+                <p>Organização de circuitos, dimensionamento correto de disjuntores e instalação de dispositivos de proteção para evitar quedas de energia e sobrecargas.</p>
+            </article>
+
+            <article>
+                <h3>Instalação de Iluminação e Luminárias</h3>
+                <p>Montagem de painéis e fitas LED, lustres, pendentes e refletores com acabamento limpo, seguro e funcional.</p>
+            </article>
+        </section>
+
+        <!-- SEÇÃO GALERIA: Exibição visual de trabalhos executados -->
+        <section id="galeria">
+            <h2>Galeria de Trabalhos</h2>
+            <p>Confira alguns serviços e ferramentas utilizadas no dia a dia técnico:</p>
+
+            <!-- img: Tag de imagem | src: caminho do arquivo | alt: texto descritivo para leitores de tela (acessibilidade) -->
+            <img src="imagens/quadro-eletrico.jpg" alt="Quadro elétrico residencial organizado com disjuntores">
+            <img src="imagens/luminaria.jpg" alt="Instalação de luminária no teto realizada com acabamento limpo">
+            <img src="imagens/ferramentas.jpg" alt="Ferramentas e instrumentos de medição para diagnósticos elétricos">
+        </section>
+
+        <!-- SEÇÃO CONTATO: Canais de atendimento e botão do WhatsApp -->
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <p>Precisa de um orçamento ou de uma revisão elétrica preventiva?</p>
+            <ul>
+                <li><strong>Telefone / WhatsApp:</strong> (21) 99999-9999</li> <!-- strong: Aplica destaque e importância semântica ao texto -->
+                <li><strong>Atendimento:</strong> Rio de Janeiro e Região</li>
+            </ul>
+            <!-- target="_blank": Abre o link em uma nova aba | aria-label: Descrição do link para leitores de tela (acessibilidade) -->
+            <a href="https://wa.me/5521999999999" target="_blank" aria-label="Falar pelo WhatsApp">Chamar no WhatsApp</a>
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ: Final da página com informações de direitos autorais e copyright -->
+    <footer>
+        <p>&copy; 2026 EletroServ - Todos os direitos reservados.</p> <!-- &copy; é a entidade HTML que gera o símbolo © -->
+    </footer>
+
+</body>
+</html>
