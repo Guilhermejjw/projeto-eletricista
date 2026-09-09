@@ -18,7 +18,6 @@
                 <li><a href="#inicio">Início</a></li> <!-- li: Item da lista | a: Link ancorado para a seção #inicio -->
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#galeria">Galeria</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
@@ -35,40 +34,99 @@
         </section>
 
         <!-- SEÇÃO SOBRE: Informações institucionais e proposta de valor do serviço -->
+        <!-- SEÇÃO SOBRE: Apresentação do profissional e proposta de valor -->
         <section id="sobre">
-            <h2>Sobre o Serviço</h2>
-            <p>Atendimento voltado para a prevenção de acidentes elétricos, eliminação de riscos de curto-circuito e garantia de instalações eficientes e seguras para residências e pequenos comércios.</p>
+            <h2>Sobre o Profissional</h2>
+            
+            <table border="0" cellpadding="10" width="100%">
+                <tr>
+                    <!-- COLUNA DA FOTO DE APRESENTAÇÃO -->
+                    <td align="center" valign="middle" width="30%">
+                        <img src="imagens/obra-grande-rio.jpg" alt="Eletricista profissional equipado com EPIs em campo de obra" width="220">
+                    </td>
+
+                    <!-- COLUNA DO TEXTO DE APRESENTAÇÃO -->
+                    <td align="left" valign="middle" width="70%">
+                        <p>Atendimento técnico especializado voltado para a segurança residencial e comercial, com total foco na prevenção de acidentes elétricos, eliminação de riscos de curto-circuito e conformidade com as normas NBR 5410.</p>
+                        <p>Trabalho executado com rigor técnico, utilização correta de equipamentos de proteção (EPIs) e diagnóstico preciso para garantir a máxima eficiência e tranquilidade para o seu imóvel.</p>
+                    </td>
+                </tr>
+            </table>
         </section>
 
         <!-- SEÇÃO SERVIÇOS: Apresenta os blocos/cards dos serviços prestados -->
         <section id="servicos">
             <h2>Nossos Serviços</h2>
             
-            <article> <!-- article: Bloco autônomo e independente de conteúdo (ideal para posts, produtos ou cards de serviços) -->
+            <!-- SERVIÇO: TOMADAS E INTERRUPTORES -->
+            <article> <!-- article: Bloco autônomo e independente de conteúdo -->
                 <h3>Instalação e Troca de Tomadas e Interruptores</h3> <!-- h3: Subtítulo para itens dentro de uma seção -->
                 <p>Substituição de peças antigas ou danificadas, adequação ao novo padrão brasileiro e instalação de novos pontos de energia em locais estratégicos.</p>
+
+                <!-- TABELA COM LARGURA 100% E COLUNAS DE 33% PARA ALINHAMENTO PERFEITO -->
+                <table border="0" cellpadding="10" width="100%">
+                    <tr>
+                        <!-- FOTO 1 -->
+                        <td align="center" valign="top" width="33%">
+                            <h4>Ligação dos Condutores</h4>
+                            <img src="imagens/tomada-simples.jpg" alt="Instalação dos condutores fase, neutro e terra no módulo de tomada" width="220"><br>
+                            <small>Ligação técnica dos cabos no módulo da tomada.</small>
+                        </td>
+
+                        <!-- FOTO 2 -->
+                        <td align="center" valign="top" width="33%">
+                            <h4>Instalação Concluída</h4>
+                            <img src="imagens/tomada-simples-finalizada.jpg" alt="Tomada no padrão brasileiro instalada com espelho e acabamento finalizado" width="220"><br>
+                            <small>Tomada finalizada e testada na parede.</small>
+                        </td>
+
+                        <!-- FOTO 3 -->
+                        <td align="center" valign="top" width="33%">
+                            <h4>Interruptor Duplo</h4>
+                            <img src="imagens/interruptor-duplo.jpg" alt="Instalação de espelho com interruptor duplo finalizado" width="220"><br>
+                            <small>Instalação de interruptor duplo com acabamento.</small>
+                        </td>
+                    </tr>
+                </table>
             </article>
 
+            <!-- SERVIÇO: QUADROS DE DISTRIBUIÇÃO -->
             <article>
                 <h3>Montagem e Revisão de Quadros de Distribuição</h3>
                 <p>Organização de circuitos, dimensionamento correto de disjuntores e instalação de dispositivos de proteção para evitar quedas de energia e sobrecargas.</p>
+
+                <!-- TABELA COM LARGURA 100% E COLUNAS DE 33% PARA ALINHAMENTO PERFEITO -->
+                <table border="0" cellpadding="10" width="100%">
+                    <tr>
+                        <!-- FOTO 1 -->
+                        <td align="center" valign="top" width="33%">
+                            <h4>QDC - Antes</h4>
+                            <img src="imagens/qdc-bi-antes.jpg" alt="Quadro de distribuição bifásico antes da organização" width="220"><br>
+                            <small>Estado inicial do quadro elétrico sem organização dos condutores.</small>
+                        </td>
+
+                        <!-- FOTO 2 -->
+                        <td align="center" valign="top" width="33%">
+                            <h4>QDC - Durante</h4>
+                            <img src="imagens/qdc-bi-durante.jpg" alt="Processo de montagem e organização dos disjuntores no quadro bifásico" width="220"><br>
+                            <small>Passagem dos cabos e identificação dos circuitos elétricos.</small>
+                        </td>
+
+                        <!-- FOTO 3 -->
+                        <td align="center" valign="top" width="33%">
+                            <h4>QDC - Concluído</h4>
+                            <img src="imagens/qdc-bi-finalizado.jpg" alt="Quadro de distribuição bifásico finalizado e penteado" width="220"><br>
+                            <small>Quadro montado, penteado e pronto para energização.</small>
+                        </td>
+                    </tr>
+                </table>
             </article>
 
+            <!-- SERVIÇO: ILUMINAÇÃO -->
             <article>
                 <h3>Instalação de Iluminação e Luminárias</h3>
                 <p>Montagem de painéis e fitas LED, lustres, pendentes e refletores com acabamento limpo, seguro e funcional.</p>
             </article>
-        </section>
-
-        <!-- SEÇÃO GALERIA: Exibição visual de trabalhos executados -->
-        <section id="galeria">
-            <h2>Galeria de Trabalhos</h2>
-            <p>Confira alguns serviços e ferramentas utilizadas no dia a dia técnico:</p>
-
-            <!-- img: Tag de imagem | src: caminho do arquivo | alt: texto descritivo para leitores de tela (acessibilidade) -->
-            <img src="imagens/quadro-eletrico.jpg" alt="Quadro elétrico residencial organizado com disjuntores">
-            <img src="imagens/luminaria.jpg" alt="Instalação de luminária no teto realizada com acabamento limpo">
-            <img src="imagens/ferramentas.jpg" alt="Ferramentas e instrumentos de medição para diagnósticos elétricos">
         </section>
 
         <!-- SEÇÃO CONTATO: Canais de atendimento e botão do WhatsApp -->
