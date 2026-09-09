@@ -1,4 +1,4 @@
-# Projeto EletroServ - Landing Page Residencial
+# Projeto GS-EletroSoluções - Landing Page Residencial
 
 Landing page criada como parte do Desafio 01 do Bootcamp de Desenvolvimento de Soluções Digitais (Kodie Academy). O objetivo é apresentar os serviços elétricos residenciais de forma clara, acessível e semântica.
 
