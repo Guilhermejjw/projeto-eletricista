@@ -5,6 +5,8 @@ Landing page criada como parte do Desafio 01 do Bootcamp de Desenvolvimento de S
 ## 🚀 Sobre o Projeto
 O projeto consiste em uma página de apresentação profissional para serviços de instalação, manutenção e revisão elétrica residencial, focada em segurança, qualidade e conformidade com as normas técnicas (NBR 5410).
 
+"O propósito deste site é conscientizar o cliente sobre a importância de contratar um profissional qualificado, apresentando de forma clara os dispositivos essenciais para garantir a segurança da instalação elétrica, a proteção dos eletrodomésticos e, acima de tudo, a preservação de vidas."
+
 ## 🛠️ Tecnologias Utilizadas
 - **HTML5** (Estruturação semântica e acessibilidade)
 - **Git** (Controle de versão)
