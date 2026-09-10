@@ -50,4 +50,4 @@ A IA foi utilizada neste projeto para:
 . **Demonstração:** A página está publicada e pode ser acessada através do link do GitHub Pages:
    👉 `https://guilhermejjw.github.io/projeto-eletricista/`
 ## 👤 Autoria
-Desenvolvido por **Guilherme Lima**.
+Desenvolvido por **Guilherme Lima**. (https://github.com/Guilhermejjw).
