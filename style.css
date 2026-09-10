@@ -1,0 +1,144 @@
+/* RESET BÁSICO E TIPOGRAFIA */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte do texto e opções de reserva (fallback) */
+    margin: 0;                                 /* Remove o espaçamento externo padrão da página */
+    padding: 0;                                /* Removido o padding do body para o cabeçalho encostar nas bordas da tela */
+    background-color: #f4f4f9;                 /* Define a cor de fundo da página (cinza claro) */
+    color: #333333;                            /* Define a cor principal do texto (cinza escuro) */
+    line-height: 1.6;                          /* Define o espaçamento entre as linhas do texto */
+}
+
+/* CABEÇALHO E NAVEGAÇÃO */
+header {
+    background-color: #1b365d;                 /* Define a cor de fundo do cabeçalho (azul escuro) */
+    color: #ffffff;                            /* Define a cor do texto para branco */
+    padding: 25px 20px;                        /* Espaçamento interno (25px topo/baixo, 20px laterais) */
+    text-align: center;                        /* Alinha os textos e elementos ao centro */
+}
+
+header h1 {
+    margin: 0 0 10px 0;                        /* Define margem externa individual (topo, direita, baixo, esquerda) */
+}
+
+nav ul {
+    list-style: none;                          /* Remove as bolinhas (marcadores) da lista */
+    padding: 0;                                /* Remove o espaçamento interno padrão da lista */
+    margin: 0;                                 /* Remove a margem externa padrão da lista */
+}
+
+nav ul li {
+    display: inline-block;                     /* Exibe os itens lado a lado permitindo controle de margens/espaçamentos */
+    margin: 0 15px;                            /* Define a margem nas laterais (topo/baixo 0, esquerda/direita 15px) */
+}
+
+nav ul li a,
+nav ul li a:visited {                          /* Aplica a regra tanto no link normal quanto no visitado */
+    color: #ffffff;                            /* Define a cor do texto do link como branco (mesmo se já visitado) */
+    text-decoration: none;                     /* Remove o sublinhado padrão dos links */
+    font-weight: bold;                         /* Deixa o texto em negrito */
+}
+
+nav ul li a:hover {
+    color: #ffcc00;                            /* Muda a cor para amarelo ao passar o mouse */
+    text-decoration: underline;                /* Adiciona sublinhado quando o mouse passa por cima do link */
+}
+
+/* SEÇÕES E ARTIGOS */
+section {
+    background-color: #ffffff;                 /* Cor de fundo branca para destacar do fundo cinza */
+    margin: 25px auto;                         /* Margem vertical de 25px e 'auto' nas laterais para centralizar o bloco */
+    padding: 30px;                             /* Espaçamento interno do bloco */
+    max-width: 1100px;                         /* Define a largura máxima para o conteúdo não espalhar em telas grandes */
+    border-radius: 8px;                        /* Arredonda os cantos do bloco */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);    /* Cria uma sombra leve para dar efeito de relevo ao cartão */
+}
+
+h2 {
+    color: #1b365d;                            /* Cor azul escuro para manter a identidade visual do cabeçalho */
+    border-bottom: 2px solid #1b365d;          /* Cria uma linha de borda na parte inferior (espessura, estilo, cor) */
+    padding-bottom: 5px;                       /* Define o espaçamento interno apenas na parte inferior */
+    margin-top: 0;                             /* Zera a margem superior para o título colar no topo do bloco */
+}
+
+h3, h4 {
+    color: #0056b3;                            /* Define a cor azul para os títulos secundários */
+}
+
+/* BOTÃO DE AÇÃO (CTA - ORÇAMENTO) */
+.btn-orcamento, a[href*="wa.me"] {
+    display: inline-block;                     /* Transforma o link em um bloco clicável tipo botão */
+    background-color: #25d366;                 /* Define a cor verde característica do WhatsApp */
+    color: #ffffff !important;                 /* Força a cor do texto a ser sempre branca */
+    padding: 12px 24px;                        /* Espaçamento interno para dar tamanho ao botão */
+    text-decoration: none;                     /* Remove o sublinhado de link */
+    font-weight: bold;                         /* Deixa o texto em negrito */
+    border-radius: 5px;                        /* Arredonda os cantos do botão */
+    margin-top: 15px;                          /* Separa o botão do texto acima */
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);    /* Sombra para dar profundidade ao botão */
+    transition: background-color 0.2s;         /* Transição suave de cor ao passar o mouse */
+}
+
+.btn-orcamento:hover, a[href*="wa.me"]:hover {
+    background-color: #1ebc57;                 /* Tom de verde mais escuro no efeito hover */
+}
+
+/* TABELAS E IMAGENS */
+table {
+    width: 100%;                               /* Faz a tabela ocupar 100% da largura do elemento pai */
+    border-collapse: collapse;                 /* Remove os espaços entre as bordas das células da tabela */
+}
+
+td {
+    padding: 15px;                             /* Espaçamento interno das células */
+    text-align: center;                        /* Centraliza o texto e imagens dentro de cada coluna */
+    vertical-align: top;                       /* Alinha todo o conteúdo das colunas na parte superior */
+}
+
+img {
+    max-width: 100%;                           /* Impede que a imagem ultrapasse a largura do seu contêiner */
+    height: auto;                              /* Ajusta a altura proporcionalmente ao redimensionar a largura */
+}
+
+td img {
+    width: 100%;                               /* Ocupa a largura máxima permitida no contêiner */
+    max-width: 280px;                          /* Limita a largura máxima da imagem na coluna */
+    height: 350px;                             /* Define uma altura fixa igual para todas as fotos da equipe */
+    object-fit: cover;                         /* Recorta a imagem proporcionalmente sem distorcer o rosto */
+    border-radius: 8px;                        /* Arredonda os cantos da foto */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.12);    /* Sombra leve em volta da foto */
+}
+
+/* RODAPÉ */
+footer {
+    text-align: center;                        /* Alinha o texto do rodapé ao centro */
+    padding: 20px;                             /* Espaçamento interno do rodapé */
+    background-color: #1b365d;                 /* Cor de fundo azul escuro idêntica ao header */
+    color: #ffffff;                            /* Cor do texto em branco */
+    margin-top: 40px;                          /* Espaçamento externo superior para distanciar do conteúdo */
+}
+
+/* ALINHAMENTO PARA TEXTOS EM TABELAS */
+.texto-apresentacao {
+    text-align: left;         /* Alinha o texto à esquerda */
+    vertical-align: middle;   /* Centraliza o texto verticalmente em relação ao elemento do lado */
+    padding: 10px 20px;       /* Dá um respiro nas laterais */
+}
+
+/* EFEITO DE ZOOM NAS FOTOS COM CSS PURO */
+td img {
+    width: 100%;                               /* Mantém a largura total do espaço da coluna */
+    max-width: 280px;                          /* Limite máximo de largura */
+    height: 350px;                             /* Altura fixa definida por você */
+    object-fit: cover;                         /* Preenche os 350px sem distorcer o enquadramento */
+    object-position: center;                   /* Mantém o foco no centro da foto */
+    border-radius: 8px;                        /* Cantos arredondados */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.12);    /* Sombra suave */
+    transition: transform 0.4s ease, box-shadow 0.4s ease; /* Transição suave de 0.4 segundos */
+    cursor: pointer;                           /* Transforma o ponteiro do mouse em mãozinha */
+}
+
+/* AÇÃO AO PASSAR O MOUSE (HOVER) */
+td img:hover {
+    transform: scale(1.08);                    /* Aumenta o tamanho da foto em 8% (zoom) */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);     /* Destaca a sombra para dar efeito de elevação */
+}

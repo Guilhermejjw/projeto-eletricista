@@ -26,11 +26,16 @@ A IA foi utilizada neste projeto para:
 - Elaboração e revisão da documentação (README).
 
 ## 🎤 Pitch do Projeto
-1. **O Problema:** Moradores e clientes residenciais muitas vezes enfrentam dificuldades para encontrar profissionais qualificados e confiáveis para pequenos reparos e instalações elétricas seguras.
-2. **A Solução:** Uma landing page direta e acessível que apresenta claramente os serviços prestados, destaca o respeito às normas de segurança e oferece um canal direto de contato via WhatsApp.
-3. **O Público:** Moradores, proprietários e pequenos comerciantes que necessitam de manutenção, instalação de luminárias ou revisão de quadros elétricos.
-4. **A Construção:** Desenvolvido em HTML5 semântico, com versionamento via Git/GitHub, sem utilização de CSS ou JavaScript conforme as regras do desafio.
+1. **O Problema:** Moradores e clientes residenciais muitas vezes enfrentam dificuldades para encontrar profissionais qualificados e confiáveis para pequenos reparos e instalações elétricas seguras, além de não ter conhecimento sobre os dispositívos mais atuais do mercado que são necessários para uma instação segura.
+
+2. **A Solução:** Uma landing page direta e acessível que apresenta claramente os serviços prestados, destaca o respeito às normas de segurança, apresente alguns dispositívos obrigatórios em instalações elétricas que muitos desconhecem e oferece um canal direto de contato via WhatsApp.
+
+3. **O Público:** Moradores, proprietários e pequenos comerciantes que necessitam de manutenção, instalação ou revisão de instalações elétricas.
+
+4. **A Construção:** Desenvolvido em HTML5 semântico, com versionamento via Git/GitHub,  e CSS, porém sem JavaScript conforme as regras do desafio.
+
 5. **O Desafio:** Aplicar corretamente a estrutura semântica do HTML e os recursos de acessibilidade (como atributos `alt` e `aria-label`) para garantir que a página seja compreensível para qualquer usuário e leitor de tela.
+
 6. **Demonstração:** A página está publicada e pode ser acessada no link gerado pelo GitHub Pages.
 
 ## 👤 Autoria

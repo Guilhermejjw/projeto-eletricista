@@ -5,6 +5,8 @@
     <meta charset="UTF-8"> <!-- Garante a exibição correta de caracteres especiais e acentos (como ç, á, ã) -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajusta a largura e o zoom para caber em telas de celulares -->
     <title>GS-EletroSoluções - Serviços Elétricos Residenciais</title> <!-- Título que aparece na aba do navegador -->
+    <!-- LINK PARA O CSS EXTERNO -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body> <!-- Contém todo o conteúdo visível que o usuário enxerga e interage no site -->
@@ -40,24 +42,24 @@
             <h2>Nossa Equipe</h2>
             <p>Contamos com uma equipe qualificada e preparada para executar serviços elétricos com segurança, agilidade e total conformidade com a norma NBR 5410.</p>
 
-            <!-- TABELA COM 3 COLUNAS DA EQUIPE LADO A LADO -->
+            <!-- TABELA 1: INTEGRANTES DA EQUIPE -->
             <table border="0" cellpadding="10" width="100%">
                 <tr>
-                    <!-- INTEGRANTE 1 (VOCÊ) -->
+                    <!-- INTEGRANTE 1 -->
                     <td align="center" valign="top" width="33%">
                         <h4>Eletricista Responsável</h4>
                         <img src="imagens/obra-grande-rio.jpg" alt="Eletricista responsável equipado com EPIs em campo de obra" width="220"><br>
                         <small>Diagnóstico técnico, planejamento de circuitos e supervisão geral das instalações.</small>
                     </td>
 
-                    <!-- INTEGRANTE 2 (AJUDANTE 1) -->
+                    <!-- INTEGRANTE 2 -->
                     <td align="center" valign="top" width="33%">
                         <h4>Ajudante Técnico</h4>
                         <img src="imagens/ajudante-ju.jpg" alt="Ajudante técnico de eletricista em campo de obra" width="220"><br>
                         <small>Apoio na passagem de condutores, infraestrutura e organização do local de trabalho.</small>
                     </td>
 
-                    <!-- INTEGRANTE 3 (AJUDANTE 2) -->
+                    <!-- INTEGRANTE 3 -->
                     <td align="center" valign="top" width="33%">
                         <h4>Ajudante Técnico</h4>
                         <img src="imagens/ajudante-vini.jpg" alt="Ajudante técnico em montagem e apoio elétrico" width="220"><br>
@@ -65,16 +67,17 @@
                     </td>
                 </tr>
             </table>
-        </section>
 
-                    <!-- COLUNA DO TEXTO DE APRESENTAÇÃO -->
-                    <td align="left" valign="middle" width="70%">
+            <!-- TABELA 2: TEXTO DE APRESENTAÇÃO (AGORA DENTRO DA MESMA SEÇÃO E COM A ESTRUTURA DE TABELA COMPLETA) -->
+            <table border="0" cellpadding="10" width="100%">
+                <tr>
+                    <td class="texto-apresentacao" width="100%">
                         <p>Atendimento técnico especializado voltado para a segurança residencial e comercial, com total foco na prevenção de acidentes elétricos, eliminação de riscos de curto-circuito e conformidade com as normas NBR 5410.</p>
                         <p>Trabalho executado com rigor técnico, utilização correta de equipamentos de proteção (EPIs) e diagnóstico preciso para garantir a máxima eficiência e tranquilidade para o seu imóvel.</p>
                     </td>
                 </tr>
             </table>
-        </section>
+        </section> <!-- <--- A SEÇÃO FECHA AQUI, ABRAÇANDO TUDO -->
 
         <!-- SEÇÃO SERVIÇOS: Apresenta os blocos/cards dos serviços prestados -->
         <section id="servicos">
