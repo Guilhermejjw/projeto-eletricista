@@ -23,8 +23,14 @@ O projeto consiste em uma página de apresentação profissional para serviços 
 ## 🤖 Inteligência Artificial como Parceira
 A IA foi utilizada neste projeto para:
 - Apoio na estruturação e organização das tags e propriedades de estilização.
-- Inclusão de comentários educativos no código-fonte para melhor fixação dos conceitos de programação.
+- Inclusão de comentários educativos no código-fonte para melhor fixação dos conceitos.
 - Elaboração e revisão da documentação (`README.md`).
+
+**Exemplos de Prompts utilizados durante o projeto:**
+- *"Como alinhar e padronizar fotos de tamanhos diferentes em colunas usando CSS puro?"*
+- *"Como aplicar um zoom em fotos via CSS sem usar JavaScript?"*
+- *"Como formatar um link de demonstração clicável em Markdown no README?"*
+- *"Revisar a estrutura semântica do HTML para garantir conformidade com acessibilidade."*
 
 ## 🎤 Pitch do Projeto
 1. **O Problema:** Moradores e clientes residenciais muitas vezes enfrentam dificuldades para encontrar profissionais qualificados e confiáveis para pequenos reparos e instalações elétricas seguras, além de não terem conhecimento sobre os dispositivos mais atuais do mercado necessários para uma instalação segura.
@@ -49,5 +55,6 @@ A IA foi utilizada neste projeto para:
 
 . **Demonstração:** A página está publicada e pode ser acessada através do link do GitHub Pages:
    👉 `https://guilhermejjw.github.io/projeto-eletricista/`
-## 👤 Autoria
+
+## 👤 Autoria 
 Desenvolvido por **Guilherme Lima**. (https://github.com/Guilhermejjw).
